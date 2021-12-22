@@ -1,6 +1,4 @@
 import spotify
-import asyncio
-import random
 
 ALBUM_URI: str = "spotify:album:1o7kL55w6IvIGz4mfWJjfu"
 USER_URI: str = "spotify:user:4lml5veu8zto4kbph5b6toyp4"
