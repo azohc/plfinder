@@ -9,12 +9,12 @@
         <h1>spotify playlist scouter</h1>
         <br>
         
-        <form action="greet" method="post">
+        <form action="user" method="post">
             {% for message in get_flashed_messages() %}
             <p> {{ message }} </p>
             {% endfor %}
             <input type="text" name="user_input">
-            <input type="submit" value="search" id="greet">
+            <input type="submit" value="get user info">
         </form>
     </body>
 </html>
