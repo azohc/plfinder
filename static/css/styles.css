@@ -1,0 +1,25 @@
+:root {
+    --space-xxs: .25rem;
+    --space-xs: .5rem;    
+    --space-sm: 1rem;    
+    --space-md: 1.5rem;    
+    --space-lg: 2rem;    
+    --space-xl: 3rem;    
+    --space-xxl: 6rem;    
+} 
+
+html {
+    block-size: 100%;
+}
+
+body {
+    min-block-size: 100%;
+    padding-block-start: var(--space-xs);
+    padding-block-end: var(--space-xs);
+    font-family: system-ui, sans-serif;
+    background-color: wheat;
+}
+
+p {
+    color: black;
+}

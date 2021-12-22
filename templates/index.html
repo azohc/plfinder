@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>spoti pl scouter</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}">
+    </head>
+    <body>
+        <h1>spotify playlist scouter</h1>
+        <br>
+        
+        <form action="greet" method="post">
+            {% for message in get_flashed_messages() %}
+            <p> {{ message }} </p>
+            {% endfor %}
+            <input type="text" name="user_input">
+            <input type="submit" value="search" id="greet">
+        </form>
+    </body>
+</html>
